@@ -42,7 +42,7 @@ see the changes take effect locally.
 <tbody>
 
 <tr>
-<td><img src="https://datacarpentry.org/assets/img/DC_logo_vision.png" alt="drawing" style="width:250px;"/></td>
+<td><img src="https://www.sib.swiss//templates/sib/images/SIB_LogoQ_GBv.svg" alt="drawing" style="width:250px;"/></td>
 <td><img src="https://www.elixir-europe.org/sites/default/files/images/excelerate_whitebackground.png" alt="drawing" style="width:250px;"/></td>
 <td><img src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_low.jpg" alt="drawing" style="width:200px;"/></td>
 <td>ELIXIR-EXCELERATE is funded by the European Commission within the Research Infrastructures programme of Horizon 2020, grant agreement number 676559</td>
