@@ -55,8 +55,8 @@ the pitch.
 {% include lc/intro.html %}
 {% endif %}
 
-<p>
-  This workshop is hosted by the <a href="http://sib.swiss/>SIB Swiss Institute of Bioinformatics</a> and the <a href="http://www.imls.uzh.ch/>Institute of Molecular Life Sciences</a> at the <a href="http://www.imls.uzh.ch/>University of Zurich</a> (UZH). It is sponsored by ELIXIR-EXCELERATE.
+<p><strong>
+  This workshop is hosted by the <a href="http://sib.swiss/">SIB Swiss Institute of Bioinformatics</a> and the <a href="http://www.imls.uzh.ch/">Institute of Molecular Life Sciences</a> at the <a href="http://www.imls.uzh.ch/">University of Zurich</a> (UZH). It is sponsored by ELIXIR-EXCELERATE. </strong>
 </p>
 
 {% comment %}
@@ -88,7 +88,7 @@ address.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. Use the following map to locate the building and room <a href="https://www.plaene.uzh.ch/campus/I>Univ. Zurich - Irchel Campus Map</a>
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. Use the following map to locate the building and room <a href="https://www.plaene.uzh.ch/campus/I">Univ. Zurich - Irchel Campus Map</a>
 </p>
 {% endif %}
 
