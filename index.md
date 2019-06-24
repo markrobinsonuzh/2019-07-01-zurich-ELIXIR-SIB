@@ -216,6 +216,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
+{% comment %}
+
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -223,6 +225,32 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
+{% endcomment %}
+
+<div class="row">
+  <div class="col-md-6">
+<h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr> <td>Morning</td>  <td>Project Organization and Management for Genomics (spreadsheet organization); Introduction to Cloud Computing for Genomics; Introduction to the command line  for Genomics</td> </tr>
+       <tr> <td>Afternoon</td>  <td>Introduction to the Command Line for Genomics cont.; Data Wrangling and Processing for Genomics</td> </tr>
+    </table>
+ 
+ <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr> <td>Morning</td>  <td>Data Analysis and Visualization in R</td> </tr>
+      <tr> <td>Afternoon</td>  <td>Data Analysis and Visualization in R cont.</td> </tr>
+    </table>
+ </div>
+</div>
+
+<p><em>Break times</em></p>
+<p>
+  Start: 9:00<br>
+  Morning break: 10:30 - 11:00<br>
+  Lunch break: 12:30 - 13:30<br>
+  Afternoon break: 15:00 - 15:30<br>
+  Finish: 17:00<br>
+</p>
 
 {% comment %}
 Collaborative Notes
