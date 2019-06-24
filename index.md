@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "University of Zurich"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Winterthurerstrasse 190"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "room Y55 L-06/08, Winterthurerstrasse 190, Irchel Campus, Univ. Zurich"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "Switzerland"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "47.398203,8.550325"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -30,43 +30,12 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
-
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
 You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
 <code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
 see the changes take effect locally.
 </div>
-{% endif %}
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
 {% endif %}
 
 
@@ -85,6 +54,10 @@ the pitch.
 {% elsif page.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+
+<p>
+  This workshop is hosted by the <a href="http://sib.swiss/>SIB Swiss Institute of Bioinformatics</a> and the <a href="http://www.imls.uzh.ch/>Institute of Molecular Life Sciences</a> at the <a href="http://www.imls.uzh.ch/>University of Zurich</a> (UZH). It is sponsored by ELIXIR-EXCELERATE.
+</p>
 
 {% comment %}
 AUDIENCE
@@ -115,7 +88,7 @@ address.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. Use the following map to locate the building and room <a href="https://www.plaene.uzh.ch/campus/I>Univ. Zurich - Irchel Campus Map</a>
 </p>
 {% endif %}
 
@@ -212,6 +185,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% elsif site.carpentry == "dc" %}
 <p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="https://www.surveymonkey.co.uk/r/GJRQ8WW">Post-workshop Survey of ELIXIR</a></p>
 {% elsif site.carpentry == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
