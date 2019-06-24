@@ -189,6 +189,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% elsif site.carpentry == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p><a href="https://www.surveymonkey.co.uk/r/GJRQ8WW">Post-workshop Survey of ELIXIR</a></p>
 {% endif %}
 
 <hr/>
