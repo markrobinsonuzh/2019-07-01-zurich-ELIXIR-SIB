@@ -315,7 +315,7 @@ Please, make sure that you have the following:
   
 </ul> 
 
-For details on how to install them, please, see section <a href = "https://datacarpentry.org/genomics-workshop/setup.html">Required additional software</a>.
+For details on how to install them, please, see section <a href = "https://datacarpentry.org/genomics-workshop/setup.html">Required additional software.</a>
 
 
 
