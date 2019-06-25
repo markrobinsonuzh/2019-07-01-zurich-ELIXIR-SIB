@@ -302,20 +302,20 @@ please preview your site before committing, and make sure to run
 </p>
 
 
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. With the exception of a spreadsheet and shell program, all of the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). 
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. With the exception of a spreadsheet program all of the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). 
 
-Instances will be set up for you and your instructor will supply the ip_address and password that you need to login.
+Instances will be set up for you and your instructor will supply the ip_address and password that you need to login. You will need an SSH client to connect to the instances.
 
 Please, make sure that you have the following:
 
 <ul>
   
   <li>Spreadsheet program such as Excel, or free LibreOffice.</li>
-  <li>Shell program. On a Mac or Linux machine, you can access a shell through a program called Terminal, which is already available on your computer. If you’re using Windows, you’ll need to download a separate program to access the shell, such as <a href = "https://www.putty.org/">PuTTY.</a></li>
+  <li>SSH client. On a Mac or Linux machine, you can access it through a program called Terminal, which is already available on your computer. If you’re using Windows, you’ll need to download a separate program to access the cloud instance, such as  <a href = "https://www.putty.org/">PuTTY</a>.</li>
   
 </ul> 
 
-For details on how to install them, please, see section <a href = "https://datacarpentry.org/genomics-workshop/setup.html">Required additional software.</a>
+For details on how to install them, please, see section <a href = "https://datacarpentry.org/genomics-workshop/setup.html">Required additional software</a>.
 
 
 
