@@ -224,14 +224,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% include lc/schedule.html %}
 {% endif %}
 
-<p><em>Break times</em></p>
-<p>
-  Start: 9:00<br>
-  Morning break: 10:30 - 11:00<br>
-  Lunch break: 12:30 - 13:30<br>
-  Afternoon break: 15:00 - 15:30<br>
-  Finish: 17:00<br>
-</p>
+
 
 {% comment %}
 Collaborative Notes
@@ -307,6 +300,29 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+
+
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. With the exception of a spreadsheet and shell program, all of the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). 
+
+Instances will be set up for you and your instructor will supply the ip_address and password that you need to login.
+
+Please, make sure that you have the following:
+
+<ul>
+  
+  <li>Spreadsheet program such as Excel, or free LibreOffice.</li>
+  <li>Shell program. On a Mac or Linux machine, you can access a shell through a program called Terminal, which is already available on your computer. If you’re using Windows, you’ll need to download a separate program to access the shell, such as <a href = "https://www.putty.org/">PuTTY</a></li>.
+  
+</ul> 
+
+For details on how to install them, please, see section <a href = "https://datacarpentry.org/genomics-workshop/setup.html">Required additional software</a>.
+
+
+
+
+
+
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
@@ -315,36 +331,4 @@ please preview your site before committing, and make sure to run
 
 
 
-Spreadsheet program such as Excel, or free LibreOffice.
 
-Shell terminal (in MAC OS and Linux those are already installed. For Windows, please take a look at this <a href = "https://swcarpentry.github.io/shell-novice/setup.html">setup</a>).
-
-
-
-
-
-{% comment %}
-<div id="vm">
-  <h3>Virtual Machine</h3>
-
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
-{% endcomment %}
