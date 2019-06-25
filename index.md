@@ -311,7 +311,7 @@ Please, make sure that you have the following:
 <ul>
   
   <li>Spreadsheet program such as Excel, or free LibreOffice.</li>
-  <li>Shell program. On a Mac or Linux machine, you can access a shell through a program called Terminal, which is already available on your computer. If you’re using Windows, you’ll need to download a separate program to access the shell, such as <a href = "https://www.putty.org/">PuTTY</a></li>.
+  <li>Shell program. On a Mac or Linux machine, you can access a shell through a program called Terminal, which is already available on your computer. If you’re using Windows, you’ll need to download a separate program to access the shell, such as <a href = "https://www.putty.org/">PuTTY.</a></li>
   
 </ul> 
 
